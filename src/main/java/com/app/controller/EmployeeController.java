@@ -20,7 +20,7 @@ import com.app.exception.ResourceNotFoundException;
 import com.app.model.Employee;
 import com.app.repository.EmployeeRepository;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://employee-management-s.herokuapp.com/")
 @RestController
 @RequestMapping("/api/v1/")
 public class EmployeeController {
